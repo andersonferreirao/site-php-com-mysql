@@ -1,22 +1,25 @@
-# site-php-com-mysql
-PHP website, with registration and user manipulation using mysql database.
+Site PHP com MySQL
+Este repositório contém um site em PHP com funcionalidades de registro e manipulação de usuários utilizando um banco de dados MySQL.
 
- .INTRODUÇÂO=>
- Seja bem vindo a esse site experimental para portfólio.
- Passo a passo para execução:
- baixe o arquivo compactado para descompactar os arquivos internos 
- instale o servidor xampp - mova os arquivos para a pasta htdocs
- abra o xampp e de 'start' no campo actions de apache e mysql
- digite a url "http://localhost/portfolio/index.php" em alguns casos http://localhost:8080/portfolio/index.php ou http://localhost:443/portfolio/index.php
- 	
- .EXECUÇÂO=>
- você vai ser direcionado a uma tela de login com um link destacado de cadastro dentro do corpo do formulário
- clicando nele você pode realizar o cadastro dos dados dentro do fomulário e submeter os dados clicando no botão 'cadastrar'
- você vai ser direcionado a uma tela de login aonde poderá logar preenchendo os campos 'email' e 'senha' com os mesmos que você preencheu no cadastro
- após preencher a tela de login coms os dados certos, você vai ser direcionado a página inicial do website
- essa página possui os campos funcionais de 'edição', 'exclusão' e 'desligamento de sessão'.
- Sendo que nesses campos você pode editar os dados cadastrais, excluir a conta logada e desligar a sessão
- clicando nesses campos você vai ser direcionado a uma página que cumpre a função descrita de cada um dos campos
-          	  
+Introdução
+Bem-vindo a este site experimental, desenvolvido com o propósito de ser utilizado como portfólio. O objetivo principal é reproduzir uma página web comum, destacando a construção do design utilizando CSS e o framework front-end "Bootstrap". A conexão com o banco de dados e as operações CRUD (Create, Read, Update e Delete) com o MySQL foram implementadas utilizando o PDO (PHP Data Object), e o código back-end foi desenvolvido em PHP.
 
+Passo a passo para execução
+Download e Descompactação:
 
+Baixe o arquivo compactado e descompacte os arquivos internos.
+Instalação do XAMPP:
+
+Instale o servidor XAMPP e mova os arquivos para a pasta "htdocs", exceto o arquivo 'usuario.sql'.
+Configuração do Banco de Dados:
+
+Abra o XAMPP, inicie os serviços Apache e MySQL, e importe o arquivo 'usuario.sql' para dentro do banco de dados MySQL utilizando o phpMyAdmin. Consulte este tutorial em vídeo para a importação 'https://youtu.be/mFI88qPAdJI?si=DOU3yQ91kOwv4vlx'.
+Acesso à Aplicação:
+
+Acesse a URL "http://localhost/portfolio/index.php". Em alguns casos, pode ser necessário utilizar "http://localhost:8080/portfolio/index.php" ou "http://localhost:443/portfolio/index.php".
+Execução
+Ao acessar a aplicação, você será direcionado para uma tela de cadastro de usuário com um link destacado, indicando o cadastro dentro do formulário. Após preencher o formulário e clicar em 'Cadastrar', você será redirecionado para uma tela de login. Nesta tela, preencha os campos 'email' e 'senha' com os mesmos dados do cadastro.
+
+Após preencher corretamente a tela de login, a autenticação será realizada, e você será redirecionado para a página inicial do website. Nesta página, você encontrará funcionalidades como 'edição', 'exclusão' e 'desligamento de sessão'. Nestes campos, você pode editar os dados cadastrados, excluir a conta logada e encerrar a sessão, retornando à tela inicial.
+
+Este projeto é uma demonstração de como criar um site utilizando PHP, Bootstrap e MySQL. Se tiver alguma dúvida ou sugestão, entre em contato pelo e-mail: andersondev65@gmail.com.
